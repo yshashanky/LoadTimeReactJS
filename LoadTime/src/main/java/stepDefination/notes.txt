@@ -1,0 +1,55 @@
+	Given Get "<Username>" and "<Password>" from examples
+	@Given("^Get \"([^\"]*)\" and \"([^\"]*)\" from examples$")
+	public void get_and_from_examples(String username, String password) {
+		System.out.println(username+password);
+	}
+	
+	Then Check CSS value for Login Button
+		@Then("^Check CSS value for Login Button$")
+	public void check_css_value_for_login_button() {
+//		String backgroundExpectedColor = "rgba(0, 83, 139, 1)";
+//		String textExpectedColor = "rgba(255, 255, 255, 1)";
+//		String expectedFontFamily = "GothamSSm";
+//		String expectedFontSize = "19px";
+//		String expectedFontWeight = "400";
+//		
+//		String backgroundColor = driver.findElement(By.className("jss3")).getCssValue("background-color");
+//		try{
+//        	Assert.assertEquals(backgroundExpectedColor,backgroundColor);
+//            System.out.println("Back ground color" + " - Passed");
+//       }catch(AssertionError e){
+//            System.out.println("Back ground color" + " - Failed");
+//       }
+//		
+//		String textColor = driver.findElement(By.className("jss2")).getCssValue("color");
+//		try{
+//        	Assert.assertEquals(textExpectedColor,textColor);
+//            System.out.println("Text color" + " - Passed");
+//       }catch(AssertionError e){
+//            System.out.println("Text color" + " - Failed");
+//       }
+//		
+//		String fontFamily = driver.findElement(By.className("jss2")).getCssValue("font-family");
+//		try{
+//        	Assert.assertEquals(expectedFontFamily,fontFamily);
+//            System.out.println("Font Family" + " - Passed");
+//       }catch(AssertionError e){
+//            System.out.println("Font Family" + " - Failed");
+//       }
+//		
+//		String fontSize = driver.findElement(By.className("jss2")).getCssValue("font-size");
+//		try{
+//        	Assert.assertEquals(expectedFontSize,fontSize);
+//            System.out.println("Font Size" + " - Passed");
+//       }catch(AssertionError e){
+//            System.out.println("Font Size" + " - Failed");
+//       }
+//		
+//		String fontWeight = driver.findElement(By.className("jss2")).getCssValue("font-weight");
+//		try{
+//        	Assert.assertEquals(expectedFontWeight,fontWeight);
+//            System.out.println("Font Weight" + " - Passed");
+//       }catch(AssertionError e){
+//            System.out.println("Font Weight" + " - Failed");
+//       }
+	}
